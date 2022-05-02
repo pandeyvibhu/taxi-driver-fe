@@ -26,7 +26,7 @@ class App extends React.Component {
 	render() {
 		const { DataisLoaded, drivers } = this.state;
 		if (!DataisLoaded) return <div>
-			<h1> Pleses wait some time.... </h1> </div> ;
+			<h2> Please wait some time.... </h2> </div> ;
 
 		return (
 		<div className = "App">
